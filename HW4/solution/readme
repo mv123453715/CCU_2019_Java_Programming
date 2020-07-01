@@ -1,0 +1,36 @@
+//郭晏誠 資工三 406410114
+0.題目：Java HW4 Bouncing Balls
+1.學號:406410114
+2.姓名:郭晏誠
+3.環境: win10 JAVA JDK13 
+https://www.oracle.com/java/technologies/javase-jdk13-downloads.html#license-lightbox
+4.E-mail:mv123453715@gmail.com
+5.操作
+  (1)直接開myJar.jar 若需要重新編譯windos請執行(2)  linux請執行(3)
+  (2)windos環境請執行make.bat後直接打開jar即可執行
+  (3)linux輸入make後  再輸入$java -jar myJar.jar 即可執行
+  (4)點擊後會產新的球開始彈跳
+  
+6.基礎功能設計簡介
+  (1)Java_HW4_BouncingBalls.java：
+    (i)使用JavaFX threading 控制多出來的球
+    (ii)使用MouseListener來從鼠標點擊後增加一個新的球，給予隨機顏色，往隨機往任意方向移動(可超過20個球)
+    (iii)使用速度反向來讓碰到邊緣的球反彈後繼續移動
+  (2)Java_HW4_Container.java
+    (i)製造背景外框用
+
+7.進階功能簡介
+  (1)新增淡化背景
+  (2)點擊時有機會出現神奇寶貝球
+  (3)點擊時有機會出現足球
+  (4)點擊時有機會出現籃球
+  (5)點擊時有機會出現排球
+  (6)點擊時有機會出現沙灘排球
+  (7)點擊時有機會出現撞球
+  (8)點擊時有機會出現網球
+
+  
+
+  
+  
+    

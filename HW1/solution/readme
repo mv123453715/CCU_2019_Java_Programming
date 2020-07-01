@@ -1,0 +1,32 @@
+//郭晏誠 資工三 406410114
+0.題目：Computer_Assisted_multiplicatio
+1.學號:406410114
+2.姓名:郭晏誠
+3.環境(哪一台工作站): cise0.cs.ccu.edu.tw
+4.E-mail:mv123453715@gmail.com
+5.設計簡介
+  (1)此為設計給小學生練習乘法的計算機助理
+  (2)一開始要求輸入difficulty level.(input interger : 1~9 )
+  (3)然後使用Math.random隨機出題，答對進入下一題，答錯繼續回答
+  (4)針對正確和錯誤的回答會有隨機4種互動輸出降低小朋友的疲倦感
+    (i)答對：
+      Very good !
+      Excellent !
+      Nice work ! 
+      Keep up the good work !
+    (ii)答錯：
+      No. Please try again. 
+      Wrong. Try once more. 
+      Don't give up! 
+      No. Keep trying.
+  (5)在輸入10次答案後會計算答對率
+    (i)若答對率>=75% 會輸出 "Congratulations, you are ready to go to the next level"
+    (ii)若答對率<75% 會輸出 "Please ask your teacher for extra help"
+  
+6.操作
+  (1)輸入make產生myJar.jar
+  (2)輸入java -jar myJar.jar 即可執行
+  (3)make clean可以清除輸出檔案
+  
+  
+    

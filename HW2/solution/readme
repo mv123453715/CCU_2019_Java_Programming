@@ -1,0 +1,50 @@
+//郭晏誠 資工三 406410114
+0.題目：Carbonfoot print Interface: Plymorphism
+1.學號:406410114
+2.姓名:郭晏誠
+3.環境(哪一台工作站): cise0.cs.ccu.edu.tw
+4.E-mail:mv123453715@gmail.com
+5.操作
+  (1)輸入make產生myJar.jar
+  (2)輸入java -jar myJar.jar 即可執行
+  (3)輸入building_num，每個building要輸入Power_degree,Water_degree,Gas_degree
+  (4)輸入car_num，每個car要輸入Driving_km,Avg_fuel_degree
+  (5)輸入bicycle_num，每個bicycle要輸入Ride_kilometers
+  (6)將會輸出每個物件的Carbonfootprint和total Carbonfootprint
+  (7)make clean可以清除輸出檔案
+  
+6.設計簡介
+  (1)碳足跡計算方式參考環保署網站：https://ccis.epa.gov.tw/media/carbonTool
+  (2)分別建立3個class Building,Car, Bicycle，每個class獨特且適當的artributes，不跟其他class重疊
+    (a)Building.java
+        private int Building_index;//building 編號
+        private double Power_degree;//building 用電度數
+        private double Water_degree;//building 用水度數
+        private double Gas_degree;//building 用瓦斯度數
+        public double getCarbonFootprint();// 實作interface Carbonfootprint中的double getCarbonFootprint()
+        計算Carbonfoot 公式：Power_degree*0.554 + Water_degree*0.162 + Gas_degree*1.879;
+        
+    (b)Car.java
+        private int Car_index;//Car 編號
+        private double Driving_km;//Car 走的公里數
+        private double Avg_fuel_degree;//Car 平均耗油
+        public double getCarbonFootprint();// 實作interface Carbonfootprint中的double getCarbonFootprint()
+        計算Carbonfoot 公式：Driving_km*2.263 / fuel;
+    
+    (c)Bicycle.java
+        private int Bicycle_index;//Bicycle 編號
+        private double Ride_kilometers;// Bicycle 走的公里數
+        public double getCarbonFootprint();// 實作interface Carbonfootprint中的double getCarbonFootprint()
+        計算Carbonfoot 公式：Ride_kilometers*0;
+  
+  (3)interface Carbonfootprint (CarbonFootprint.java)
+    (a)為(2)中三個class的interface 有public double getCarbonFootprint()
+  (4)Test檔案(Java_HW2.java)
+    (a)用Arrayltst存物件Building和Car和Bicycle
+    (b)會輸出每個物件的Carbonfootprint和total Carbonfootprint
+
+  
+
+  
+  
+    

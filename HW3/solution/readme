@@ -1,0 +1,29 @@
+//郭晏誠 資工三 406410114
+0.題目：Java HW3 TYPING TUTOR tuning a crucial skill in the computer age
+1.學號:406410114
+2.姓名:郭晏誠
+3.環境: win10 JAVA JDK13 
+https://www.oracle.com/java/technologies/javase-jdk13-downloads.html#license-lightbox
+4.E-mail:mv123453715@gmail.com
+5.操作
+  (1)直接開myJar.jar 若需要重新編譯windos請執行(2)  linux請執行(3)
+  (2)windos環境請執行make.bat後直接打開jar即可執行
+  (3)linux輸入make後  再輸入$java -jar myJar.jar 即可執行
+  (4)請直接打字即可，滑鼠直接點button無效
+
+  
+6.設計簡介
+  (1)採用黑白virtual keyboard ( Use JButtons)
+  (2)用戶打字用setBackground method改變背景顏色，去highlight對應的JButton key，並加入 character to a JTextArea (顯示目前所有輸入)
+  (3)顯示報告
+    (i)用戶總準確度 
+    (ii)要有特定的短語讓用戶練習
+    (iii)輸出用戶覺得較難的字(準確度低於50%的)
+  (4)背景元素  bg.jpg(http://www.xxjxsj.cn/article/42233.html)
+  (5)答對時會顯示cat_right.gif
+  (6)答對時會顯示cat_wrong.gif
+
+
+  
+  
+    
